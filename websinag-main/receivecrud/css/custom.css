@@ -1,0 +1,228 @@
+html{ margin: 0; padding: 0;}
+body{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+    background-color: #ffffff;
+    
+}
+#wrapper{
+  width: 100%;
+    min-height: 600px;
+    padding:2px;
+    margin: 5 auto;
+    background-color: #ffffff;
+}
+#header{
+  width: 98%;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(161, 106, 19);
+  background-color: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+}
+#menu{
+  text-align: left;
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(61, 41, 9);
+  text-indent: 10px;
+  margin-left: 10px;
+  position: absolute;
+  background:#f5d986;
+  width: 15vw;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+#menu a{
+  margin-top: 30px;
+  text-align: left;
+  font-weight: bold;
+  padding: 2px;
+  font-size: 25px;
+}
+#second-submenu{
+    height: 24px;
+    width: 98%;
+}
+#third-submenu{
+  padding: 10px;
+   height: 24px;
+  width: 29%;
+  text-align: left;
+  background-color: #d5a57d;
+  border-radius: 10px;
+
+}
+#menu a, #second-submenu a, #third-submenu a{
+    text-decoration: none;
+    color: #976510;
+    font-weight: bold;
+}
+#menu a:hover, #second-submenu a:hover, #third-submenu a:hover{
+    text-decoration: none;
+    color:#cc9f17;
+    font-weight: bold;
+}
+#content{
+    min-height: 90vh;
+    font-family: 'Work Sans', sans-serif;
+    float: right;
+    width: 83%;   
+    padding: 5px;
+    min-height: 540px;
+    margin-left: 10px;
+    background-color: #d5c8a7;
+}
+#subcontent{
+  padding-right: 1px;
+  width: 98;
+}
+.txtbox{
+  
+  background-color: rgb(255, 255, 255);
+  width: 650px;
+  border: 15px solid #d5a57d;
+  padding: 50px;
+  margin: 20px;
+
+}
+.total{
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+
+}
+.payinput{
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+}
+
+.move-right{
+    float: right;
+}
+/* FORM */
+.input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #d8c1ae;
+  font-weight: bold;
+  color: rgb(209, 133, 34);
+  padding: 15px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #a55819;
+}
+
+#form-block {
+  
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 80%;
+  margin: 0px;
+  height: 550px;
+
+}
+#form-block #form-block-half{
+    width: 45%;
+    float: left;
+    padding: 20px;
+}
+#button-block{
+    width: 95%;
+    padding: 20px;
+    text-align: right;
+}
+/** end */
+
+#data-list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#data-list td, #data-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#data-list tr:nth-child(even){background-color: #f2f2f2;}
+
+#data-list tr:hover {background-color: #ddd;}
+
+#data-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #FFBF00;
+  color: white;
+}
+#login-block{
+  text-align: center;
+  width: 30%;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #f69f49;
+  padding: 10px;
+  margin-top: 2px;
+}
+.image { 
+  width: 100px; 
+  height: 100px; 
+  margin-top: 20px ;
+  margin-left: 620px;
+  border-radius: 50px;
+}
+#brand-block{
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  color: #753e12;
+  width: 40%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* The Modal (background) */
+.modal {
+  text-align: center;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(201, 174, 55); /* Fallback color */
+  background-color: rgb(245, 168, 52); /* Black w/ opacity */
+}
+
+/* Modal Content */
+#error_notif {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  margin: 0 auto;
+  z-index: 999999999;
+}
